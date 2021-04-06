@@ -1,0 +1,185 @@
+h1{
+    color:darkslateblue;
+    text-align:center;
+    font-weight:bold;
+}
+h2{
+    color:slateblue;
+    text-align:center;
+    font-weight:bold;
+}
+h3{
+    color:slateblue;
+    text-align:center;
+    font-weight:bold;
+}
+p{
+    color:indigo;
+    text-align:center;
+    
+    font-size:20px;
+}
+body{
+    background-color:lavender;
+    font-family: 'Roboto Mono', monospace;
+}
+ul{
+    
+    color:indigo;
+    font-size:20px;
+}
+iframe{
+    height:606px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:90%;
+}
+.table{
+    margin-left:auto;
+    margin-right:auto;
+}
+.pics{
+    text-align:center;
+}
+.hobbies{
+    width:70%;
+    filter: grayscale(2);
+}
+.hobbies:hover{
+    width:80%;
+    filter: saturate(1);
+}
+.lane{
+    color:green;
+    background-color:#eed202;
+}
+.tech{
+    color:#eed202;
+    background-color:green;
+}
+.big-hover:hover{
+    font-size:35px;
+}
+.big-hover{
+    text-decoration:none;
+}
+.link{
+    text-align:center;
+}
+.odd{
+    background-color:#CDB5CD;
+    font-size:20px;
+}
+.even{
+    background-color:#EED2EE;
+    font-size:20px;
+}
+.header{
+    background-color:#4F2F4F;
+    color:white;
+    font-size:25px;
+}
+.sky{
+    border:dashed;
+    border-color:indigo;
+    width: 85%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    animation:sepiaFilter 4s forwards;
+}
+.facts{
+    visibility:hidden;
+    text-align:center;
+}
+#profile:hover .facts{
+    visibility:visible;
+}
+@keyframes sepiaFilter{
+    from{
+        filter: sepia(100%);
+    }
+    to{
+        filter:sepia(0%);
+    }
+}
+hr{
+    color:indigo;
+}
+.table-sm{
+    text-align:center;
+}
+.web-button{
+    text-align:center;
+}
+.job{
+    border:dashed indigo;background-color:white;
+}
+.job-desc:hover{
+    background-color:#ececec;
+}
+.avg-sal:hover{
+    background-color:#ececec;
+}
+.more-info:hover{
+    background-color:#ececec;
+}
+.random:hover{
+    background-color:#ececec;
+}
+.vers{
+    border:dashed indigo;background-color:white;
+}
+.container{
+    padding-left:40px;
+    padding-right:40px;
+}
+.link-vers{
+    color:slateblue;
+}
+.uni{
+    background-color:white;
+    color:black;
+    font-size:30px;
+}
+.location{
+    background-color:white;
+    color:black;
+    font-size:20px;
+}
+.occu:hover{
+    background-color:#ececec;
+}
+.uni-info{
+    font-size:18px;
+    text-align:left;
+}
+.lane-img1{
+    margin-left:100px;
+    width:70%;
+    border:solid indigo;
+}
+.lane-img2{
+    margin-left:75px;
+    width:70%;
+    border:solid indigo;
+}
+.likes{
+    text-align:left;
+}
+.dislikes{
+    text-align:left;
+}
+.pos{
+    text-align:left;
+}
+.nav-item{
+    padding-left:5px;
+    padding-right:5px;
+}
+.school-name{
+    background-color:white;
+    color:black;
+    font-size:30px;
+}
